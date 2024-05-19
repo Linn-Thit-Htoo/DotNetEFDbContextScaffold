@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DotNetEFDbContextScaffold.Models;
 
-public partial class User
+public class User
 {
     public long UserId { get; set; }
 

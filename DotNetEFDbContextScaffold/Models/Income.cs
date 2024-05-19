@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DotNetEFDbContextScaffold.Models;
 
-public partial class Income
+public class Income
 {
     public long IncomeId { get; set; }
 

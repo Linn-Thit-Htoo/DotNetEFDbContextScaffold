@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DotNetEFDbContextScaffold.Models;
 
-public partial class TblBlog
+public class TblBlog
 {
     public long BlogId { get; set; }
 

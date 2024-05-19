@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DotNetEFDbContextScaffold.Models;
 
-public partial class Product
+public class Product
 {
     public long ProductId { get; set; }
 
@@ -17,5 +17,5 @@ public partial class Product
 
     public bool IsActive { get; set; }
 
-    public virtual Category Category { get; set; } = null!;
+    public Category Category { get; set; } = null!;
 }
