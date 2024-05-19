@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DotNetEFDbContextScaffold.Models;
+﻿namespace DotNetEFDbContextScaffold.Models;
 
 public class User
 {
