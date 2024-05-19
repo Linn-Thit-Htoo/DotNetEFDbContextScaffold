@@ -1,0 +1,6 @@
+@DotNetEFDbContextScaffold_HostAddress = http://localhost:5191
+
+GET {{DotNetEFDbContextScaffold_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
